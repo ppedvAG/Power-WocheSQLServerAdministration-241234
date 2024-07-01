@@ -52,6 +52,36 @@
           <AssociatedConnUserName />
           <FullPath>05_SystemDBs.sql</FullPath>
         </FileNode>
+        <FileNode Name="06_DB_Objekte.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>06_DB_Objekte.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07_Agent.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>07_Agent.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08_Dababasemail.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>08_Dababasemail.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09_Operatoren.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>09_Operatoren.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10_Warnungen.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>10_Warnungen.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
