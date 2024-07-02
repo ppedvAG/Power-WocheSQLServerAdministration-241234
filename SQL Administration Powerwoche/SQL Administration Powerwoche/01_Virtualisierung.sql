@@ -23,7 +23,7 @@ Auch in der VM muss gelten: gleiche Leistung wie eine reale pyhsische Maschine
 
 Gefahr bei VMs?
 bei Veränderung der Hardware durch Neukonfiguration des VM (+Kerne) :
-SQL Server passt sich nicht an...
+SQL Server passt sich nicht an...--> manuell nachholen
 
 
 ---Virtualisierung

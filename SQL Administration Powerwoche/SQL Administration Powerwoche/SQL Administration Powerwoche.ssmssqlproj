@@ -53,8 +53,8 @@
           <FullPath>05_SystemDBs.sql</FullPath>
         </FileNode>
         <FileNode Name="06_DB_Objekte.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>06_DB_Objekte.sql</FullPath>
         </FileNode>
@@ -81,6 +81,48 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>10_Warnungen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11_Proxykonto.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>11_Proxykonto.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11_Snapshot.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>11_Snapshot.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20_Backup.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>20_Backup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="21_Restore.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>21_Restore.sql</FullPath>
+        </FileNode>
+        <FileNode Name="22_backupStrategie.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>22_backupStrategie.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_instnwnd.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_instnwnd.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_Openrowset.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_Openrowset.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

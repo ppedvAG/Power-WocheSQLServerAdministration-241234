@@ -69,7 +69,7 @@ select * from (select * from customers ) c
 
 create proc gpname @par int , @par2 int
 as
-select * from tabelle where id = @par1 and sp5 = @par2
+select * from tabelle where id = @par1 and sp5 = @par2*1.20
 -INS UP DEL
 
 
