@@ -24,6 +24,7 @@ Transaktionsprotokollsicherung  T
 
 Warum kann ich aber bei einer meiner DB keine T Sicherung machen..?
 Weil es ein sog Wiederherstellungsmodel gibt...
+Nur die TlogSicherung leert das Tlog
 
 
 pro DB 

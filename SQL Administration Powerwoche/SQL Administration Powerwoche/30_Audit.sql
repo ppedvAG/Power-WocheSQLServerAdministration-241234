@@ -8,6 +8,6 @@
 --aber mit dem hier schon.. Filter mit where
 
 select * from sys.fn_get_audit_file 
-	('c:\_SQLBACKUP\Security_DF7F3D53-DE58-4316-845D-05DAFE428884_0_133602346247870000.sqlaudit', default, default) 
+	('c:\_SQLdata\Securityaudit2_3CE2F6F5-013C-4768-ACA9-44F737BD209A_0_133644722507190000.sqlaudit', default, default) 
 
-where server_principal_name ='SUSI'
+where server_principal_name ='EVa'
