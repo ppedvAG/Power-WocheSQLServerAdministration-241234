@@ -38,3 +38,45 @@ jeden Tag ausser Sa/So  22 Uhr
 
 
 
+
+--Wie sichern wir ?
+
+/*
+Wie lange darf der Server bzw die DB ausfallen in Zeit?
+
+Wie groß dar der Datenverlust in Zeit sein?
+
+
+DB Größe: 350 GB
+7:00 - 17:00
+Mo bis FR
+
+select 350000/500/60
+
+Stillstandzeit: gar nicht -->HADR Hochverfügbarkeit (ent)
+			    ab 30min per Restore machbar
+
+Datenverlust:   0 --> HADR (ent)
+			    15min 
+
+
+
+Vollsicherung:
+Dauer liegt bei etwa 10 bis 20 min---< 200GB Backupfile
+so oft wie möglich
+
+Täglich ausser Sa und So um 19:15
+
+
+
+TLogsicherung
+Mo bis Fr alle 15Min , aber ab 7:15 bis 17:15
+
+
+Diff
+alle  4 Tlogsicherung eine D
+
+
+
+--Jetzt testen?
+
