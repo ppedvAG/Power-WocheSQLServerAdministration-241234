@@ -34,6 +34,12 @@
           <AssociatedConnUserName />
           <FullPath>02_Setup.sql</FullPath>
         </FileNode>
+        <FileNode Name="02-DSG_Seiten und Blöcke.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>02-DSG_Seiten und Blöcke.sql</FullPath>
+        </FileNode>
         <FileNode Name="03_Serversettings.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
@@ -155,16 +161,34 @@
           <FullPath>40_MAXDOP.sql</FullPath>
         </FileNode>
         <FileNode Name="41_part Sicht.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>41_part Sicht.sql</FullPath>
         </FileNode>
         <FileNode Name="42_Partitionierung.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>42_Partitionierung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="43_Seiten und Blöcke.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>43_Seiten und Blöcke.sql</FullPath>
+        </FileNode>
+        <FileNode Name="44_Kompression.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>42_Partitionierung.sql</FullPath>
+          <FullPath>44_Kompression.sql</FullPath>
+        </FileNode>
+        <FileNode Name="45__Seitenprobleme.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>45__Seitenprobleme.sql</FullPath>
         </FileNode>
         <FileNode Name="Z_instnwnd.sql">
           <AssociatedConnectionMoniker />
@@ -177,6 +201,12 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>Z_Openrowset.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z_Perfmon_Indikatoren.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>z_Perfmon_Indikatoren.sql</FullPath>
         </FileNode>
         <FileNode Name="Z_sp_change_users_login.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
@@ -200,6 +230,12 @@
     </LogicalFolder>
     <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
       <Items>
+        <FileNode Name="PerfmonVorlage.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PerfmonVorlage.xml</FullPath>
+        </FileNode>
         <FileNode Name="SQLPOL.zip">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
