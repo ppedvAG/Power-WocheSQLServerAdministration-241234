@@ -54,7 +54,7 @@ group by country, city  option (maxdop 8)
 
 --im Plan Doppelpfeil
 
---Dass SQL Server paralelisiert müssen 2 Bedingungen erfüllt sein
+--Dass SQL Server parallelisiert müssen 2 Bedingungen erfüllt sein
 -- Bed 1: wenn der Kostenschwellwert überschritten wurde: default bei 5
 --       dann werden rigoros alle CPUs verwendet
 
